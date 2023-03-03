@@ -1,0 +1,113 @@
+/*======================
+   01. Google fonts
+========================*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+/*======================
+   02. Basic css
+========================*/
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+strong,
+i,
+ol,
+ul,
+li,
+form,
+label,
+footer,
+header,
+menu,
+nav,
+section {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	line-height: 24px;
+	background-image: linear-gradient( 135deg, #92FFC0 10%, #002661 100%);
+	color: #111111;
+   font-weight: 400;
+	font-family: 'Lato', sans-serif;
+	background-repeat: no-repeat;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+button:focus, input:focus, textarea:focus {
+	outline: 0;
+}
+
+.circular-wrapper {
+	 padding: 80px 0;
+	 height: 100vh;
+}
+
+.head-text {
+	 font-size: 35px;
+	 color: #ffffff;
+}
+
+.circular-box {
+    padding: 30px 30px 0px 30px;
+    text-align: center;
+    border-radius: 6px;
+    margin-top: 60px;
+}
+
+.circular-box h2 {
+	 font-size: 18px;
+	 color: #ffffff;
+}
+
+.circular-bg1 {
+	 background: #e12454;
+}
+
+.circular-bg2 {
+	 background: #7197b3;
+}
+
+.circular-bg3 {
+	 background: #73ca8d;
+}
+
+.circular-bg4 {
+	 background: #ea6a38;
+}
+
+.circular-box .radial-progress {
+    padding: 20px 0;
+}
+
+.circular-box .radial-progress circle {
+    fill: rgba(0,0,0,0);
+    stroke: #fff;
+    stroke-dashoffset: 219.91148575129;
+    stroke-width: 4px;
+}
+
+.circular-box .radial-progress text {
+    fill: #fff;
+    text-anchor: middle;
+    font-weight: 700;
+    font-size: 11px;
+}
